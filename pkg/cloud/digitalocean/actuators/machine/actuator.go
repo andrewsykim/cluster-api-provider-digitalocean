@@ -29,7 +29,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/record"
 
-	"github.com/kubermatic/cluster-api-provider-digitalocean/cloud/digitalocean/actuators/machine/machinesetup"
+	"github.com/kubermatic/cluster-api-provider-digitalocean/pkg/cloud/digitalocean/actuators/machine/machinesetup"
 	doconfigv1 "github.com/kubermatic/cluster-api-provider-digitalocean/pkg/apis/providerconfig/v1alpha1"
 	"github.com/kubermatic/cluster-api-provider-digitalocean/pkg/ssh"
 	"github.com/kubermatic/cluster-api-provider-digitalocean/pkg/sshutil"

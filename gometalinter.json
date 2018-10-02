@@ -3,10 +3,10 @@
   "Concurrency": 2,
   "DisableAll": true,
   "Skip": [
-    "cloud/digitalocean/actuators/machine",
     "cmd/cluster-controller",
     "cmd/machine-controller",
-    "pkg/apis/providerconfig"
+    "pkg/apis/providerconfig",
+    "pkg/cloud/digitalocean/actuators/machine"
   ],
   "Exclude": [
     "should have comment or be unexported",

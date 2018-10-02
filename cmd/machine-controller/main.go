@@ -23,8 +23,8 @@ import (
 	"k8s.io/apiserver/pkg/util/logs"
 	"sigs.k8s.io/cluster-api/pkg/controller/config"
 
-	"github.com/kubermatic/cluster-api-provider-digitalocean/cloud/digitalocean/controllers/machine"
-	"github.com/kubermatic/cluster-api-provider-digitalocean/cloud/digitalocean/controllers/machine/options"
+	"github.com/kubermatic/cluster-api-provider-digitalocean/pkg/cloud/digitalocean/controllers/machine"
+	"github.com/kubermatic/cluster-api-provider-digitalocean/pkg/cloud/digitalocean/controllers/machine/options"
 )
 
 func main() {
