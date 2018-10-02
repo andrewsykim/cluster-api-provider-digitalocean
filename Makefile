@@ -26,8 +26,8 @@ depend-update: ## Update all dependencies
 .PHONY: generate
 generate:
 	go build -o $$GOPATH/bin/deepcopy-gen github.com/kubermatic/cluster-api-provider-digitalocean/vendor/k8s.io/code-generator/cmd/deepcopy-gen
-	deepcopy-gen \
-	  -i ./cloud/digitalocean/providerconfig,./cloud/digitalocean/providerconfig/v1alpha1 \
+	$$GOPATH/bin/deepcopy-gen \
+	  -i ./pkg/apis/providerconfig,./pkg/apis/providerconfig/v1alpha1 \
 	  -O zz_generated.deepcopy \
 	  -h boilerplate.go.txt
 

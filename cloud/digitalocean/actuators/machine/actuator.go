@@ -30,7 +30,7 @@ import (
 	"k8s.io/client-go/tools/record"
 
 	"github.com/kubermatic/cluster-api-provider-digitalocean/cloud/digitalocean/actuators/machine/machinesetup"
-	doconfigv1 "github.com/kubermatic/cluster-api-provider-digitalocean/cloud/digitalocean/providerconfig/v1alpha1"
+	doconfigv1 "github.com/kubermatic/cluster-api-provider-digitalocean/pkg/apis/providerconfig/v1alpha1"
 	"github.com/kubermatic/cluster-api-provider-digitalocean/pkg/ssh"
 	"github.com/kubermatic/cluster-api-provider-digitalocean/pkg/sshutil"
 	"github.com/kubermatic/cluster-api-provider-digitalocean/pkg/util"
